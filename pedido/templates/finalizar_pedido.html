@@ -181,21 +181,59 @@ $(document).ready(function() {
 <br>
 
 <div id="pagamento">
-    
     <h3 class="rosa">Meio de pagamento*:</h3>
-    <select name="meio_pagamento" class="form-control" onchange="javascript:dinheiro(this);">
-      <option value="1">Dinheiro</option>
-      <option value="2">Cartão</option>
+    <select name="meio_pagamento" class="form-control" onchange="mostrarCamposPagamento(this);">
+        <option value="1">Dinheiro</option>
+        <option value="2">Cartão</option>
+        <option value="3">Pix</option>
     </select>
 
-    <div id="troco">
-        <h3 class="rosa">troco para*:</h3>
-        <input type="text" class="form-control" placeholder="Número" name="troco_para">
+    <div id="dados_cartao" style="display: none;">
+        <label for="nome_titular">Nome do Titular:</label>
+        <input type="text" id="nome_titular" name="nome_titular" class="form-control" placeholder="Nome Completo do Titular">
+        <label for="numero_cartao">Número do Cartão:</label>
+        <input type="text" id="numero_cartao" name="numero_cartao" class="form-control" placeholder="Número do Cartão">
+        <label for="validade_cartao">Data de Validade:</label>
+        <input type="text" id="validade_cartao" name="validade_cartao" class="form-control" placeholder="Data de Validade">
+        <!-- Outros campos do cartão aqui -->
     </div>
+
+    <div id="dados_pix" style="display: none;">
+        <label for="chave_pix">Chave Pix:</label>
+        <input type="text" id="chave_pix" name="chave_pix" class="form-control" placeholder="Chave Pix">
+    </div>
+
+    <div id="troco_para">
+        <h3 class="rosa">Troco para*:</h3>
+        <input type="text" class="form-control" placeholder="Valor do Troco" name="troco_para">
+    </div>
+
     <br>
     <button onclick="envia()" class="btn btn-success btn-lg">Efetuar pedido!</button>
-
 </div>
+
+<script>
+function mostrarCamposPagamento(select) {
+    var divDadosCartao = document.getElementById("dados_cartao");
+    var divDadosPix = document.getElementById("dados_pix");
+    var divTroco = document.getElementById("troco_para");
+
+    if (select.value == "1") {
+        divDadosCartao.style.display = "none";
+        divDadosPix.style.display = "none";
+        divTroco.style.display = "block";
+    } else if (select.value == "2") {
+        divDadosCartao.style.display = "block";
+        divDadosPix.style.display = "none";
+        divTroco.style.display = "none";
+    } else if (select.value == "3") {
+        divDadosCartao.style.display = "none";
+        divDadosPix.style.display = "block";
+        divTroco.style.display = "none";
+    }
+}
+</script>
+
 
 <div style="display: none;" id="pagamento_online">
 teste
@@ -239,3 +277,4 @@ function validaCupom(){
 
 
 {% endblock %}
+
