@@ -138,7 +138,7 @@ Projeto Sistema Para Delivery
 || **Git**            | <a href="https://git-scm.com/doc"><img alt="Material de Apoio" src="https://img.shields.io/badge/Ver%20Material-FF1493?style=for-the-badge"></a> | [<img alt="Git" src="https://velog.velcdn.com/images/younoah/post/bc8a1f7c-68ac-48bc-84be-d6855d436f18/Git.gif" width="50">](https://git-scm.com/doc) |
 | **GitHub**         | <a href="https://docs.github.com/pt"><img alt="Material de Apoio" src="https://img.shields.io/badge/Ver%20Material-00008B?style=for-the-badge"></a> | [<img alt="GitHub" src="https://th.bing.com/th/id/R.ce6e4d2e376119ddd5553036bbec443e?rik=1WrQqmC2O57a0g&pid=ImgRaw&r=0" width="50">](https://docs.github.com/pt) |
 | **VS Code**        | <a href="https://code.visualstudio.com/docs/setup/setup-overview"><img alt="Material de Apoio" src="https://img.shields.io/badge/Ver%20Material-FF1493?style=for-the-badge"></a> | [<img alt="VS Code" src="https://media2.giphy.com/media/SS8CV2rQdlYNLtBCiF/giphy.gif" width="50">](https://code.visualstudio.com/docs/setup/setup-overview) |
-| **Python**        | <a href="https://docs.python.org/pt-br/3/tutorial/index.html"><img alt="Material de Apoio" src="https://img.shields.io/badge/Ver%20Material-00008B?style=for-the-badge"></a> | [<img alt="python" src="https://th.bing.com/th?id=OIP.xgFoyAgGbkqUuSOXX2Rj0QHaHY&w=250&h=249&c=8&rs=1&qlt=90&o=6&dpr=1.6&pid=3.1&rm=2" width="50">](https://nodejs.org/en/docs/) |
+| **Python**        | <a href="https://docs.python.org/pt-br/3/tutorial/index.html"><img alt="Material de Apoio" src="https://img.shields.io/badge/Ver%20Material-00008B?style=for-the-badge"></a> | [<img alt="python" src="https://media1.giphy.com/media/KAq5w47R9rmTuvWOWa/giphy.gif" width="50">](https://nodejs.org/en/docs/) |
 
 
 
