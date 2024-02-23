@@ -111,7 +111,7 @@ Projeto Sistema Para Delivery
 ## 📽️ Video
 <p align="center">
   <a href="https://www.youtube.com/watch?v=DMQSziesTko">
-    <img src="https://img.youtube.com/vi/2t8ycK8D4Rk/0.jpg" alt="Assista ao vídeo">
+    <img src="https://img.youtube.com/vi/DMQSziesTko/0.jpg" alt="Assista ao vídeo">
   </a>
 </p>
 
