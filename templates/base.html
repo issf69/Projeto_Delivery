@@ -8,11 +8,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" >
     <link rel="stylesheet" href="{% static 'produto/css/css.css' %}" >
     <script src="{% static 'pedido/js/js.js' %}"></script>
+    <script src="caminho/do/seu/arquivo.js"></script>
 
     {% block 'head'%}
 
     {% endblock %}
     <title>SorveBolo</title>
+    
     <style>
       /* Estilo para o body */
       body {
@@ -42,7 +44,7 @@
         pointer-events: none;git status
 
         opacity: 0;
-        animation: waterDropFall linear 2s forwards;
+        animation: waterDropFall linear 4s forwards;
       }
       
       /* Animação de queda das gotas de água */
@@ -95,6 +97,7 @@
     </body>
 
   </head>
+
   <body>
     
     <nav class="navbar navbar-expand-lg navbar-light corBorda">
@@ -174,10 +177,10 @@
 
  
     <audio controls style="float: right; margin-right: 20px;">
-      <source src="{{ MEDIA_URL }}music/Violin Concerto in F major, RV 293 'Autumn'.mp3" type="audio/mpeg">
+      <source src="/media/music/Piano Sonata.mp3" type="audio/mpeg">
       Seu navegador não suporta o elemento de áudio.
     </audio>
-    
+  
 
 
 
