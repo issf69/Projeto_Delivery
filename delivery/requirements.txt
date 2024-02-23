@@ -1,17 +1,9 @@
 Django==5.0.2
+asgiref==3.7.2
+sqlparse==0.4.4
 pillow==8.4.0
 
 
-Mode                 LastWriteTime         Length Name
-----                 -------------         ------ ----
-d----          22/02/2024    21:54                delivery
-d----          22/02/2024    17:07                media
-d----          18/02/2024    12:14                meu_aplicativo
-d----          18/02/2024    12:14                pedido
-d----          18/02/2024    12:14                produto
-d----          22/02/2024    08:21                static
-d----          18/02/2024    12:14                templates
-d----          20/02/2024    16:31                venv
--a---          22/02/2024    21:35         229376 db.sqlite3
--a---          18/02/2024    12:14            686 manage.py
--a---          22/02/2024    22:20             80 requirements.txt
+
+
+
