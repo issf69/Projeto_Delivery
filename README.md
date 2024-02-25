@@ -97,8 +97,8 @@ Projeto Sistema Para Delivery
 ## 🔖 Layout
 
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=MUkqPUN0ccM">
-    <img src="https://img.youtube.com/vi/MUkqPUN0ccM/0.jpg" alt="Assista ao vídeo">
+  <a href="https://www.youtube.com/watch?v=b7ibBdfzAos">
+    <img src="https://img.youtube.com/vi/b7ibBdfzAos/0.jpg" alt="Assista ao vídeo">
   </a>
 </p>
 
