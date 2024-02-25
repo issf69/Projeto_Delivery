@@ -12,4 +12,10 @@ setup(
     author_email='irenesilvafranca2016@gmail.com',
     description='Uma breve descrição do seu pacote',
     url='https://github.com/issf69/Projeto_Delivery.git',
+    classifiers=[
+        'Programming Language :: Python :: 3',
+        'License :: OSI Approved :: MIT License',
+        'Operating System :: OS Independent',
+    ],
+    python_requires='>=3.6',
 )
