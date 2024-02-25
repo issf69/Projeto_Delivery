@@ -1,7 +1,7 @@
 Django==5.0.2
 asgiref==3.4.1
 sqlparse==0.4.2
-pillow==8.4.0
+pillow==10.2.0
 
 
 
