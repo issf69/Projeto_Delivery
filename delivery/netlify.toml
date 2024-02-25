@@ -1,4 +1,4 @@
 [build]
-  base = "C:\\Users\\Irene\\Delivery_Projeto_Teste\\Projeto_Delivery"
+  base = "projeto_delivery" # Substitua "projeto_delivery" pelo nome do diretório onde está o seu projeto
   command = "python manage.py collectstatic --noinput"
   publish = "static"
