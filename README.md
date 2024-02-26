@@ -44,7 +44,7 @@ Aprender o básico sobre HTML, CSS ,JavaScript ,Python Django  .
 </h1>
 
 
-Projeto Sistema de Delivery promovido pela  [Pythonando](https://hotmart.s3.amazonaws.com/product_pictures/2b02cf98-1f63-47c0-ac02-4ed4cb29bad4/logo_pythonando.png) , cursos de Tecnologia, para fins didáticos.  <p align="center"> <img align="center" width="100px" src="https://hotmart.s3.amazonaws.com/product_pictures/2b02cf98-1f63-47c0-ac02-4ed4cb29bad4/logo_pythonando.png">
+Projeto Sistema de Delivery promovido pela  [Pythonando](https://pythonando.com.br/psw/evento/curso_python_full) , cursos de Tecnologia, para fins didáticos.  <p align="center"> <img align="center" width="100px" src="https://hotmart.s3.amazonaws.com/product_pictures/2b02cf98-1f63-47c0-ac02-4ed4cb29bad4/logo_pythonando.png">
 
 
    <h1 align="center"> Imersão Sistema para Delivery</h1>
